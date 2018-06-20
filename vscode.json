@@ -1,0 +1,106 @@
+{
+  "workbench.colorTheme": "Oceanic Next",
+  "workbench.statusBar.feedback.visible": false,
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.sideBar.location": "left",
+  "workbench.editor.tabSizing": "shrink",
+  "workbench.editor.tabCloseButton": "off",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "editor.fontFamily": "Operator Mono, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontSize": 21,
+  "editor.lineHeight": 31,
+  "editor.letterSpacing": 0.5,
+  "editor.cursorWidth": 5,
+  "editor.minimap.showSlider": "always",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
+  "editor.fontWeight": "400",
+  "editor.cursorStyle": "line",
+  "editor.cursorBlinking": "solid",
+  "editor.minimap.enabled": true,
+  "editor.multiCursorModifier": "ctrlCmd",
+  "editor.snippetSuggestions": "top",
+  "editor.renderWhitespace": "none",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.colorDecorators": false,
+  "npm.enableScriptExplorer": true,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "files.trimTrailingWhitespace": true,
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/.next": true,
+    "**/bower_components": true,
+    "**/jspm_packages": true,
+    "**/node_modules": true
+  },
+  "window.zoomLevel": -2,
+  "window.title": "${dirty} ${activeEditorMedium}${separator}${rootName}",
+  "window.clickThroughInactive": false,
+  "workbench.iconTheme": "vscode-great-icons",
+  "[javascript]": {
+    "editor.formatOnSave": false
+  },
+  "prettier.eslintIntegration": true,
+  "eslint.options": {
+    "configFile": "/Users/konrad/.eslintrc"
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    {
+      "language": "html",
+      "autoFix": true
+    }
+  ],
+  "eslint.alwaysShowStatus": true,
+  "eslint.autoFixOnSave": true,
+  "auto-rename-tag.activationOnLanguage": [
+    "*"
+  ],
+  "css.validate": false,
+  "scss.validate": false,
+  "bracketPairColorizer.consecutivePairColors": [
+    "{}",
+    [
+      // "#e4fc84",
+      // "#00ff9c"
+      "Gold",
+      "Orchid",
+      "LightSkyBlue"
+    ],
+    "Red"
+  ],
+  "gitlens.advanced.messages": {
+    "suppressCommitHasNoPreviousCommitWarning": false,
+    "suppressCommitNotFoundWarning": false,
+    "suppressFileNotUnderSourceControlWarning": false,
+    "suppressGitVersionWarning": false,
+    "suppressLineUncommittedWarning": false,
+    "suppressNoRepositoryWarning": true,
+    "suppressResultsExplorerNotice": false,
+    "suppressShowKeyBindingsNotice": true,
+    "suppressUpdateNotice": false,
+    "suppressWelcomeNotice": false
+  },
+  "gitlens.keymap": "alternate",
+  "gitlens.historyExplorer.enabled": true,
+  "cSpell.userWords": [
+    "backticks",
+    "cmyk",
+    "devtools",
+    "hyperpower",
+    "hyperterm",
+    "lastname",
+    "repo",
+    "repos",
+    "segoe"
+  ],
+  "html.format.enable": true,
+  "html.format.preserveNewLines": true,
+}

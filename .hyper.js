@@ -6,7 +6,7 @@ module.exports = {
   config: {
     // Choose either "stable" for receiving highly polished,
     // or "canary" for less polished but more frequent updates
-    updateChannel: "stable",
+    updateChannel: "canary",
 
     // default font size in pixels for all tabs
     fontSize: 12,
@@ -48,7 +48,7 @@ module.exports = {
     showWindowControls: "",
 
     // custom padding (css format, i.e.: `top right bottom left`)
-    padding: "12px 14px",
+    padding: ".5rem .5rem 20px .5rem",
 
     // the full list. if you're going to provide the full color palette,
     // including the 6 x 6 color cubes and the grayscale map, just provide
@@ -97,7 +97,7 @@ module.exports = {
     bell: "SOUND",
 
     // if true, selected text will automatically be copied to the clipboard
-    copyOnSelect: false
+    copyOnSelect: false,
 
     // if true, on right click selected text will be copied or pasted if no
     // selection is present (true by default on Windows)
@@ -107,6 +107,9 @@ module.exports = {
     // bellSoundURL: 'http://example.com/bell.mp3',
 
     // for advanced config flags please refer to https://hyper.is/#cfg
+    hyperline: {
+      plugins: ["hostname", "network", "ip", "memory", "cpu", "spotify"]
+    }
   },
 
   // a list of plugins to fetch and install from npm
@@ -119,7 +122,8 @@ module.exports = {
     "hyper-oceanic-next",
     "hyperterm-paste",
     "hyperfullscreen",
-    "hyper-statusline",
+    "hypercwd",
+    "hyperline",
     "hyper-quit"
   ],
   // "hyper-oceanic-next"

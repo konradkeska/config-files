@@ -37,15 +37,13 @@ module.exports = {
     },
     shell: "/usr/local/bin/zsh",
     shellArgs: ["--login"],
+    webGLRenderer: false,
     env: {},
     bell: false,
     copyOnSelect: false,
-    quickEdit: true,
-    hyperline: {
-      plugins: ["ip", "network", "cpu", "memory"]
-    }
+    quickEdit: true
   },
-  plugins: ["hyperterm-paste", "hypercwd", "hyperline", "hyper-quit"],
+  plugins: ["hyperterm-paste", "hypercwd", "hyper-quit"],
   localPlugins: [],
   keymaps: {}
 };

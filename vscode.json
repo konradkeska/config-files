@@ -11,17 +11,21 @@
   "editor.cursorBlinking": "solid",
   "editor.cursorStyle": "line",
   "editor.cursorWidth": 5,
-  "editor.fontFamily": "Dank Mono, Fira Code, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "FiraCode-Retina, Fira Code, Dank Mono, Menlo, Monaco, 'Courier New', monospace",
   "editor.fontLigatures": true,
-  "editor.fontSize": 18,
-  "editor.fontWeight": "400",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "300",
   "editor.formatOnPaste": true,
   "editor.formatOnSave": true,
   "editor.glyphMargin": true,
-  "editor.gotoLocation.multiple": "goto",
+  "editor.gotoLocation.multipleDefinitions": "goto",
+  "editor.gotoLocation.multipleTypeDefinitions": "goto",
+  "editor.gotoLocation.multipleDeclarations": "goto",
+  "editor.gotoLocation.multipleImplementations": "goto",
+  "editor.gotoLocation.multipleReferences": "goto",
   "editor.hideCursorInOverviewRuler": true,
   "editor.letterSpacing": 0.5,
-  "editor.lineHeight": 26,
+  "editor.lineHeight": 23,
   "editor.matchBrackets": false,
   "editor.minimap.maxColumn": 80,
   "editor.minimap.enabled": true,
@@ -45,15 +49,6 @@
   "eslint.options": {
     "configFile": "/Users/konrad/.eslintrc"
   },
-  "eslint.autoFixOnSave": true,
-  "eslint.validate": [
-    "javascript",
-    "javascriptreact",
-    {
-      "autoFix": true,
-      "language": "html"
-    }
-  ],
   "[javascript]": {
     "editor.formatOnSave": true
   },
@@ -79,6 +74,8 @@
     "**/bower_components/**": true
   },
   "files.trimTrailingWhitespace": true,
+  "files.autoSave": "onWindowChange",
+  "files.encoding": "utf8",
   "gitlens.advanced.messages": {
     "suppressCommitHasNoPreviousCommitWarning": false,
     "suppressCommitNotFoundWarning": false,
@@ -99,7 +96,7 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "npm.enableScriptExplorer": true,
   "scss.validate": false,
-  "terminal.integrated.fontFamily": "Dank Mono, Inconsolata for Powerline, Monaco, 'Courier New', monospace",
+  "terminal.integrated.fontFamily": "FiraCode-Retina, Fira Code, Dank Mono, Inconsolata for Powerline, Monaco, 'Courier New', monospace",
   "terminal.integrated.fontSize": 14,
   "terminal.integrated.lineHeight": 1.1,
   "typescript.format.enable": true,
@@ -120,7 +117,9 @@
   "workbench.colorTheme": "Subliminal Next",
   "enableTelemetry": false,
   "workbench.iconTheme": "material-icon-theme",
-  "files.autoSave": "afterDelay",
   "workbench.settings.editor": "json",
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
 }

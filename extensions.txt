@@ -1,3 +1,5 @@
+code --install-extension andys8.jest-snippets
+code --install-extension bigous.vscode-multi-line-tricks
 code --install-extension christian-kohler.path-intellisense
 code --install-extension cmstead.jsrefactor
 code --install-extension CoenraadS.bracket-pair-colorizer-2
@@ -20,6 +22,10 @@ code --install-extension Prisma.vscode-graphql
 code --install-extension rafamel.subtle-brackets
 code --install-extension ramyaraoa.show-offset
 code --install-extension shardulm94.trailing-spaces
+code --install-extension shyykoserhiy.vscode-spotify
+code --install-extension streetsidesoftware.code-spell-checker
 code --install-extension TzachOvadia.todo-list
 code --install-extension VisualStudioExptTeam.vscodeintellicode
 code --install-extension wayou.vscode-todo-highlight
+code --install-extension wmaurer.change-case
+code --install-extension yzhang.markdown-all-in-one
